@@ -1,0 +1,103 @@
+
+nav{
+    display: flex;
+    justify-content: space-between  ;
+}
+
+a{
+    color: rgb(121, 117, 117);
+}
+
+a:focus{
+    color: black;
+}
+
+.home {
+
+    width: 380px;
+    height: 380px;
+    background: #E7E7E7;
+    border-radius: 20px;
+    transition: 1s;
+    padding: 20px;
+}
+
+.home:hover {
+    background: #5A98F2;
+}
+
+.main {
+    background: #E7E7E7;
+    width: 150px;
+    height: 40px;
+    border-radius: 55px;
+    text-align: center;
+}
+
+
+.main:hover {
+    background: #458FF6;
+
+}
+
+.child {
+    width: 100px;
+    height: 40px;
+    border-radius: 55px;
+    border: 2px solid #458FF6;
+    align-items: center;
+    text-align: center;
+}
+
+.pas {
+    display: flex;
+
+}
+.big{
+    display: flex;
+    align-items: center;
+    justify-content:space-around ;
+}
+.wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+
+.ffff{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.boy{
+    align-items: center;
+    width: 100px;
+    height: 40px;
+    border-radius: 55px;
+    border: 2px solid #458FF6;
+    text-align: center;
+}
+
+
+.kaka{
+    justify-content: space-between;
+}
+
+.chap{
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+
+.uy{
+ background: linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%);
+width: 1600;
+height: 432;
+
+
+
+}
